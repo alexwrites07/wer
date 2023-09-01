@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;400&display=swap');
+
+.custom-font {
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* Hide the scrollbar completely while allowing scrolling */
+/* For Webkit based browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+  }
+  
+  /* For Firefox, to make it work with scrollbar styles */
+  * {
+    scrollbar-width: none;
+  }
+  
+  /* Hide scroll buttons in IE/Edge */
+  *::-webkit-scrollbar-button {
+    display: none;
+  }
+  
+  

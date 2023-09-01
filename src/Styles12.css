@@ -1,0 +1,68 @@
+.Application{
+    text-align: center;
+  }
+  
+  .Application-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .Application-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .Application-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .Application-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  .nm{
+    font-color:blue;
+  }
+  .jkl
+  {
+    padding-left:10px;
+    padding-right:10px;
+  }
+  .kl{
+    margin:0 10%;
+  }
+  .kp{
+    width:50%;
+    margin:0 20%;
+    text-align:center;
+  }
+  /* .df{
+    text-align:left;
+    margin-right:35%;
+  }
+  .sd{
+    text-align:right;
+    margin-left:65%;
+    position:relative;
+    top:0px;
+  } */
+  /* .qaz{
+    position:absolute;
+    top:0px;
+  } */

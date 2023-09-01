@@ -1,0 +1,80 @@
+/* Add the following CSS for styling the active token */
+.sidebar-token.active {
+  border-bottom: 2px solid #67655E; /* Color for the line under the active token */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  /* background-color: #FCF4A3; */
+}
+
+.dashboard {
+  display: flex;
+  min-height: 100vh;
+  background-color: #d3d3d3;
+  margin:5%;
+}
+.qa{
+  margin:6%;
+}
+.sidebar {
+  background-color: #d3d3d3;
+  color: #8AA6AA;
+  width: 250px;
+  padding: 20px;
+  border-right: 1px solid #67655E; /* Add a border on the right side of the sidebar */
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  background-color: #d3d3d3;
+  border-left: 1px solid #67655E; /* Add a border on the left side of the content */
+}
+
+.divider {
+  width: 1px;
+  background-color: #67655E;
+  margin: 20px 0;
+}
+
+.sidebar-token {
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+/* Add space between tokens and content */
+.desktop-dropdown + .desktop-dropdown {
+  margin-top: 10px;
+}
+
+/* Media query for mobile and tablet views */
+@media (max-width: 800px) {
+  .dashboard {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    border-right: none; /* Remove the border on the right side of the sidebar on mobile */
+    margin-bottom: 20px; /* Add some space at the bottom of the sidebar on mobile */
+  }
+
+  .content {
+    border-left: none; /* Remove the border on the left side of the content on mobile */
+  }
+
+  /* Show the mobile dropdown */
+  .mobile-dropdown {
+    display: block;
+    width: 100%;
+    padding: 10px; /* Add some padding for better appearance */
+    font-size: 14px; /* Adjust font size for mobile */
+    border: 1px solid #67655E; /* Add border to the dropdown */
+    border-radius: 4px; /* Add border radius to the dropdown */
+    background-color: #FFFFFF; /* Dropdown background color */
+    color: #000000; /* Dropdown text color */
+  }
+}
